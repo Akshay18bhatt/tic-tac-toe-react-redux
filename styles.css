@@ -1,0 +1,34 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.board-row{
+    display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prev-moves{
+    width: 320px;
+    height: 340px;
+    
+}
